@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>바다한가득</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../images/logo.png" rel="shortcut icon" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/index.css">
+        
+    </head>
+    
+    <body>
+        <header class="header">
+            <div class="main_logo">
+                <a href="./index.html">
+                    <img src="../images/logo.png" alt="logo">
+                    <span>바다한가득</span>
+                </a>
+            </div>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="./index.html">홈</a></li>
+                    <li><a href="./marketPrice.html">시세</a></li>
+                    <li><a href="./market.html">시장</a></li>
+                    <li><a href="./MyPage.html">마이페이지</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="content">
+            <article class="market">
+                <div class="marketSelect">
+                    <div>시장</div>
+                    <form action="#">
+                        <select name="marketSelection" class="comboBox">
+                            <option value="노량진수산시장">노량진 수산시장</option>
+                            <option value="부산자갈치시장">부산 자갈치시장</option>
+                            <option value="인천종합어시장">인천종합어시장</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="marketPrice_show">
+                    <div class="marketPrice_search">
+                        <form action="#">
+                            <input type="text" name="marketPriceSearch">
+                            <input type="submit" value="검색">
+                        </form>
+                    </div>
+                    <div>평균시세</div>
+                    <div class="layout2row">
+                        <div class="layout2row_left">
+                            <ul>
+                                <li>광어    1kg당 19,400원</li>
+                                <li>연어    1kg당 20,000원</li>
+                                <li>고등어  마리당 5,000원</li>
+                            </ul>
+                        </div>
+                        <div class="layout2row_right">
+                            <ul>
+                                <li>대게    1kg당 50,400원</li>
+                                <li>돌돔    1kg당 100,000원</li>
+                                <li>참돔    1kg당 35,000원</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="more_btn">더보기</button>
+                </div>
+                <div class="marketShop">
+                    <div class="marketShop_show">
+                        <ul class="threeColumsGrid">
+                            <li><a href="#">가게1</a></li>
+                            <li><a href="#">가게2</a></li>
+                            <li><a href="#">가게3</a></li>
+                            <li><a href="#">가게4</a></li>
+                            <li><a href="#">가게5</a></li>
+                            <li><a href="#">가게6</a></li>
+                            <li><a href="#">가게7</a></li>
+                            <li><a href="#">가게8</a></li>
+                            <li><a href="#">가게9</a></li>
+                        </ul>
+                    </div>
+                    <button class="more_btn">더보기</button>
+                </div>
+            </article>
+        </section>
+
+        <footer class="footer">
+            <div>
+                해당 사이트는 소프트웨어공학 7조의 프로젝트를 위해 만들어졌습니다.
+            </div>
+        </footer>
+
+    </body>
+</html>

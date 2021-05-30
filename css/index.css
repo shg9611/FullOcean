@@ -1,0 +1,79 @@
+/* design & layout */
+.gnb ul li:first-child{
+    background-color: var(--LightSkyblue);
+}
+
+.market{
+    width: 100%;
+}
+.market .marketSelect{
+    background-color: var(--LightGrey);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 26px;
+}
+.market .marketSelect div:first-child{
+    background-color: var(--PointColor);
+    width: 45px;
+    color: white;
+    margin-right: 15px;
+}
+.market .marketPrice_show{
+    border-bottom: solid var(--BorderColor) 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.market .marketPrice_show .marketPrice_search{
+    margin: 8px;
+    border: solid 1px var(--BorderColor);
+    border-right: none;
+    width: 300px;
+    overflow: hidden;
+}
+.market .marketPrice_show .marketPrice_search [type="text"]{
+    border: none;
+    width: 250px;
+}
+.market .marketPrice_show .marketPrice_search [type="text"]:focus{
+    outline: none;
+}
+.market .marketPrice_show .marketPrice_search [type="submit"]{
+    border: none;
+    background-color: var(--Blue);
+    float: right;
+    color: white;
+    width: 46px;
+}
+.market .marketPrice_show .marketPrice_search [type="submit"]:hover{
+    background-color: var(--Darkblue);
+}
+.layout2row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+.layout2row_left, .layout2row_right{
+    display: flex;
+    width: 45%;
+    justify-content: center;
+}
+.layout2row_right{
+    border-left: solid 1px var(--BorderColor);
+}
+.marketShop{
+    margin: 10px;
+}
+.marketShop .marketShop_show{
+    margin-bottom: 10px;
+}
+.marketShop .marketShop_show ul li{
+    padding: 20px;
+    border: solid 1px var(--LightGrey);
+}
